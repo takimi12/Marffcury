@@ -1,0 +1,11 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Zasada umożliwiająca odczyt dla wszystkich użytkowników (nawet nieuwierzytelnionych)
+    match /products/{document=**} {
+      allow read: if true;
+    }
+  }
+}

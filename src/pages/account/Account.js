@@ -3,6 +3,7 @@ import AdminOnlyRoute from '../../components/adminOnlyRoute/AdminOnlyRoute'
 import { Link, Route, Routes } from 'react-router-dom';
 import styles from './Account.module.scss'
 import AddProduct from '../../components/admin/addProducts/AddProducts';
+import ViewProducts from '../../components/admin/viewProducts/ViewProducts';
 
 const Account = () => {
   return (
@@ -50,7 +51,8 @@ const Account = () => {
         </div>
       </div>
       <div className={styles.content}>
-            <AddProduct />
+        dd
+            <ViewProducts/>
                   </div>
     </div>
   </section>
