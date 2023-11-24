@@ -1,0 +1,23 @@
+// Zaimportuj pliki SCSS
+@import "Scss/__reset";
+@import "Scss/__typography";
+@import "Scss/__normalize";
+
+// Header&Footer
+@import "Scss/modules/Footer/__Footer";
+@import "Scss/modules/Header/__Header";
+
+
+
+// koszyk
+
+@import "Scss/modules/Header/_MiniBig";
+@import "Scss/modules/Home/HomeNewsletter.scss";
+@import "./pages/auth/auth.module.scss";
+
+
+// @import "Css/icon.css";
+@import "Scss/Css/demo.css";
+@import "Scss/Css/font-awesome.min.css";
+@import "./index.css";
+
